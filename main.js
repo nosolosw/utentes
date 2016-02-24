@@ -21,7 +21,7 @@ function createWindow () {
   });
 
   // and load the index.html of the app.
-  mainWindow.loadURL('file://' + __dirname + '/utentes-ui/exploracao-search.html');
+  mainWindow.loadURL('http://localhost:6543/static/utentes-ui/exploracao-search.html');
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools();
